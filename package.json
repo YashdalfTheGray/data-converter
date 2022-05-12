@@ -1,0 +1,25 @@
+{
+  "name": "data-converter",
+  "version": "1.0.0",
+  "description": "An app that does data conversion between JSON and YAML. ",
+  "main": "index.html",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashdalfTheGray/data-converter.git"
+  },
+  "author": "Yash Kulshrestha",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/YashdalfTheGray/data-converter/issues"
+  },
+  "homepage": "https://github.com/YashdalfTheGray/data-converter#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
