@@ -4,7 +4,8 @@
   "description": "An app that does data conversion between JSON and YAML. ",
   "main": "index.html",
   "scripts": {
-    "test": "ava"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
