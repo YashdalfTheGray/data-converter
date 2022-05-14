@@ -4,6 +4,7 @@
   "description": "An app that does data conversion between JSON and YAML. ",
   "main": "index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/YashdalfTheGray/data-converter#readme",
   "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
     "parcel": "^2.5.0"
   },
   "dependencies": {
