@@ -1,3 +1,5 @@
-import * as yaml from 'js-yaml';
+import App from './components/App';
 
-console.log(yaml);
+const app = new App({});
+
+document.querySelector('div#app-root')!.innerHTML = app.render();
