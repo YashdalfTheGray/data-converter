@@ -7,7 +7,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,11 @@
   "homepage": "https://github.com/YashdalfTheGray/data-converter#readme",
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
+    "@types/lodash-es": "^4.17.6",
     "parcel": "^2.5.0"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "lodash-es": "^4.17.21"
   }
 }
