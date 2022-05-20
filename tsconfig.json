@@ -5,6 +5,7 @@
     "moduleResolution": "node",
     "isolatedModules": false,
     "jsx": "react",
+    "jsxFactory": "DOMcreateElement",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "declaration": false,
