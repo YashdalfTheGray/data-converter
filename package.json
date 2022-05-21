@@ -30,6 +30,10 @@
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "preact": "^10.7.2"
+  },
+  "alias": {
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
   }
 }
