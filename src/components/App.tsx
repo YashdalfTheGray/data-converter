@@ -1,13 +1,12 @@
-import Component from '../Component';
+import { Component } from 'preact';
 
 export default class App extends Component {
-  constructor(props: {}) {
-    super('App', props);
-  }
-
   render() {
-    return `
-      <div>This is a test</div>
-    `;
+    return (
+      <div>
+        <h1>Hello World</h1>
+        <p>This is my first Preact app</p>
+      </div>
+    );
   }
 }
