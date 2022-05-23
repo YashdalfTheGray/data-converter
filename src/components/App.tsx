@@ -1,11 +1,14 @@
 import { Component } from 'preact';
 
+import './app.scss';
+
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello World</h1>
-        <p>This is my first Preact app</p>
+      <div className="app">
+        <h1 className="header">Data Converter</h1>
+        <p className="main">This is where the main content will go</p>
+        <p className="footer">This is a footer</p>
       </div>
     );
   }
