@@ -1,6 +1,7 @@
 import { Component } from 'preact';
 
 import Header from './Header';
+import Footer from './Footer';
 
 import './app.scss';
 
@@ -9,8 +10,8 @@ export default class App extends Component {
     return (
       <div className="app">
         <Header />
-        <p className="main">This is where the main content will go</p>
-        <p className="footer">This is a footer</p>
+        <div className="main">This is where the main content will go</div>
+        <Footer />
       </div>
     );
   }
