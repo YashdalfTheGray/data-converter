@@ -38,6 +38,8 @@
     "preact": "^10.7.2"
   },
   "alias": {
-    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+    "preact/jsx-dev-runtime": "preact/jsx-runtime",
+    "data-converter/sampleData": "./src/sampleData.ts",
+    "data-converter/components": "./src/components"
   }
 }
