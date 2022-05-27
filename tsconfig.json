@@ -22,7 +22,8 @@
     "baseUrl": ".",
     "paths": {
       "preact/jsx-dev-runtime": ["node_modules/preact/jsx-runtime/"],
-      "data-converter/*": ["src/*"]
+      "/*": ["*"],
+      "~/*": ["*"]
     },
     "types": ["preact"]
   },
