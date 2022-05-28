@@ -1,7 +1,7 @@
 import { Component } from 'preact';
 
-import { data as sampleData } from 'data-converter/sampleData';
-import { JsonValue } from 'data-converter/types';
+import { data as sampleData } from '~/src/sampleData';
+import { JsonValue } from '~/src/types';
 
 export type CodePanesState = {
   currentData: JsonValue;
