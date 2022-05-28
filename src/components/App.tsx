@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import CodePanes from './CodePanes';
 
-import './app.scss';
+import './App.scss';
 
 export default class App extends Component {
   render() {
