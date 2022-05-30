@@ -1,12 +1,14 @@
 import { Component } from 'preact';
 
+import Heading from '/src/components/Title';
+
 import './Header.scss';
 
 export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Data Converter</h1>
+        <Heading type="h1">Data Converter</Heading>
       </div>
     );
   }
