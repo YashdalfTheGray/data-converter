@@ -14,7 +14,6 @@ export default class CodePanes extends Component<{}, CodePanesState> {
 
   render() {
     const { currentData } = this.state;
-    console.log(currentData);
     return (
       <div className="main">
         <pre>{JSON.stringify(currentData, null, 2)}</pre>
