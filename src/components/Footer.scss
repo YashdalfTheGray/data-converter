@@ -4,4 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  a {
+    color: #888;
+
+    &:hover {
+      color: #5266e7;
+
+      &:visited {
+        color: #6b4a9d;
+      }
+    }
+  }
 }

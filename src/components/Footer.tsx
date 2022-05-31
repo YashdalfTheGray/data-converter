@@ -7,12 +7,12 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         This application converts code using&nbsp;
-        <a href="">
+        <a href="https://github.com/nodeca/js-yaml">
           <code>js-yaml</code>
         </a>
         &nbsp;and does not communicate with a server. You can find the
         code&nbsp;
-        <a href="">here</a>.
+        <a href="https://github.com/YashdalfTheGray/data-converter">here</a>.
       </div>
     );
   }
