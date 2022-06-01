@@ -1,5 +1,7 @@
 import { Component } from 'preact';
 
+import './CodePanes.scss';
+
 import { data as sampleData } from '~/src/sampleData';
 import { JsonValue } from '~/src/types';
 
@@ -15,7 +17,8 @@ export default class CodePanes extends Component<{}, CodePanesState> {
   render() {
     const { currentData } = this.state;
     return (
-      <div className="main">
+      <div className="main code-panes">
+        <pre>{JSON.stringify(currentData, null, 2)}</pre>
         <pre>{JSON.stringify(currentData, null, 2)}</pre>
       </div>
     );
