@@ -18,8 +18,12 @@ export default class CodePanes extends Component<{}, CodePanesState> {
     const { currentData } = this.state;
     return (
       <div className="main code-panes">
-        <pre>{JSON.stringify(currentData, null, 2)}</pre>
-        <pre>{JSON.stringify(currentData, null, 2)}</pre>
+        <pre className="code-pane left">
+          {JSON.stringify(currentData, null, 2)}
+        </pre>
+        <pre className="code-pane right">
+          {JSON.stringify(currentData, null, 2)}
+        </pre>
       </div>
     );
   }
