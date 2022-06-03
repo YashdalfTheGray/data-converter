@@ -1,4 +1,5 @@
 import { Component } from 'preact';
+import * as yaml from 'js-yaml';
 
 import './CodePanes.scss';
 
@@ -22,7 +23,7 @@ export default class CodePanes extends Component<{}, CodePanesState> {
           {JSON.stringify(currentData, null, 2)}
         </pre>
         <pre className="code-pane right">
-          {JSON.stringify(currentData, null, 2)}
+          {yaml.dump(currentData, { indent: 2, quotingType: '"', forceQuotes: false })}
         </pre>
       </div>
     );
